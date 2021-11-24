@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+
+<link rel="stylesheet" href="style.css">
+
+
+  <title>Web project</title>
+</head>
+<body>
+
+<!-- navbar -->
+<NAV class="nav navbar navbar-expand-lg bg-info navbar-dark PY-3 fixed-top ">
+  <div class="container">
+  <a href="#" class="navbar-brand">CARLINE</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+    <span class="navbar-toggler-icon"></span >
+  </button>
+  <div class="collapse navbar-collapse" id="navmenu">
+    <ul class="navbar-nav ms-auto">
+  
+      <li class="nav-item">
+        <a href="" class="nav-link"> MOT & SERVICING</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link"> About</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link active"> Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</NAV>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiamF6enNhbXVlbCIsImEiOiJja3FzOG5qbHcwZ3lhMnBvM25ldWR4cjU2In0.ufIIrgNUHeng57uaWdy4og';
+var map = new mapboxgl.Map({
+container: 'map', // container ID
+style: 'mapbox://styles/mapbox/streets-v11', // style URL
+center: [-1.787730, 50.840260], // starting position [lng, lat]
+zoom: 16 // starting zoom
+});
+</script>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/04e7a63f3b.js" crossorigin="anonymous"></script>
+
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
