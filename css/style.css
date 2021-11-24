@@ -377,9 +377,9 @@ ul {
 
   .carousel-caption {
     position: absolute;
-    top: 125px;
     right: 10px;
     left: 10px;
+    top: 0%;
   }
 
   #slider .carousel-caption h5 {
@@ -407,5 +407,28 @@ ul {
   .carousel-caption2 {
     left: 15px;
     right: 15px;
+  }
+
+  .carousel-item {
+    height: 60vh;
+    background: center;
+  }
+
+  .carousel-inner {
+    height: 60vh;
+  }
+
+  .carousel-item img {
+    height: 60vh;
+    width: 100%;
+  }
+
+  #carouselExampleCaptions2 {
+    height: 60vh;
+    background-color: #fff;
+  }
+
+  #carouselExampleCaptions2 .carousel-inner {
+    height: 60vh;
   }
 }
